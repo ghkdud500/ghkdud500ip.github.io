@@ -1,0 +1,92 @@
+<!doctype html> <!-- homework5.html -->
+<html><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+	* { box-sizing:border-box; padding:0; margin:0; }
+	header, nav, section, article, aside, footer { color:white; margin: 1px; padding:80px; color:white;}
+ 	.wrap { background:#353535;}
+	header { height:140px; float:left; }
+	nav{ height:40px; color:gray; font-size:20pt; }
+	nav ul {margin:0; padding:0; }
+	nav ul li {display:inline; margin:5px;}
+	section { width:900px; float:left; }
+	section section {width:725px; float:left;}
+	aside { width:221px; float:left;}
+	aside ul { margin:0;padding:0;}
+	aside ul li {display:block; margin:5px;}
+	footer { font-size:10pt; clear:both; float:bottom; text-align:center; background:#353535; color:white;}
+	a:link {color:#FAF4C0; background-color:transparent; text-decoration:none;}
+	a:visited {color:#FAF4C0; background-color:transparent; text-decoration:none;}
+	a:hover {color:#EAEAEA; background-color:transparent; text-decoration:none;}
+	a:active {color:#EAEAEA; background-color:transparent; text-decoration:none;}
+ 	#center{text-align:center;}
+	#color{background:#353535;}
+  
+@media only screen and (min-width: 0px) {        /* mobile */
+  	.col-m-0 {width: 0%;} 	
+	.col-m-1 {width: 8.33%;}     
+	.col-m-2 {width: 16.66%;}    
+	.col-m-3 {width: 25%;}    
+	.col-m-4 {width: 33.3%;}
+	.col-m-5 {width: 41.66%;}    
+	.col-m-6 {width: 50%;}    
+	.col-m-7 {width: 58.33%;}    
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}    
+	.col-m-10 {width: 83.33%;}    
+	.col-m-11 {width: 91.66%;}    
+	.col-m-12 {width: 100%;} }
+   
+@media only screen and (min-width: 1000px) {        /* desktop */	
+	.col-1{ width:8.33%;} 
+	.col-2{width:16.66%;} 
+	.col-3{width:25%;} 
+	.col-4{ width:33.33%;}
+	.col-5{width:41.66%;} 
+	.col-6{width:50%;} 
+	.col-7{ width:58.33%;}
+	.col-8{width:66.66%;}
+	.col-9{width:75%;} 
+	.col-10{ width:83.33%;} 
+	.col-11{width:91.66%;} 
+	.col-12{width:100%;}}
+ 
+</style>
+<title>HOMEPAGE</title>
+</head>
+<body class="wrap">
+<!-- Navbar start  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">INTERNET PROGRAMMING</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="https://ghkdud500.github.io/20180607/portfolio.html">Home</a></li>
+            <li><a href="https://ghkdud500.github.io/20180607/Info.html">Info</a></li>
+            <li><a href="https://ghkdud500.github.io/20180607/Practice.html">Practice</a></li>
+            <li><a href="https://ghkdud500.github.io/20180607/Timetable">Timetable</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--/  Navbar end  --> 
+<header>
+	<img src="grand.jpg" width="1000" height="250" align="left">
+<header>
+<section>
+	<br/>
+	</section>
+<footer>
+	<p>Copyright &copy;2018 Made by verbieten. All rights reserved. </p>
+</footer>
+</body>
+</html>
