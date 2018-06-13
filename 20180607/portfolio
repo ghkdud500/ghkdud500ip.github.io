@@ -1,82 +1,80 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- favicon -->
-    <link rel="icon" href="images/myFavicon.ico">
+<!doctype html> <!-- homework5.html -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+	* { box-sizing:border-box; padding:0; margin:0; }
+	header, nav, section, article, aside, footer { color:white; margin: 1px; padding:80px; color:white;}
+ 	.wrap { background:#353535;}
+	header { font-family:'나눔손글씨 붓'; font-style:italic; letter-spacing:-2px; font-size:40pt; height:140px; }
+	nav{ font-family:'나눔바른펜'; height:40px; color:gray; font-size:20pt; }
+	nav ul {margin:0; padding:0; }
+	nav ul li {display:inline; margin:5px;}
+	section { font-family:'나눔바른펜'; width:900px; float:left; font-size:18pt; }
+	section section {width:725px; float:left;}
+	aside {  font-family:'나눔바른펜'; width:221px; float:left; line-height:30px; font-size:18pt;}
+	aside ul {margin:0;padding:0; color:navy;}
+	aside ul li {display:block; margin:5px;}
+	footer {  font-family:'나눔바른펜'; clear:both; text-align:center; background:#353535; color:white;}
+	a:link {color:#FAF4C0; background-color:transparent; text-decoration:none;}
+	a:visited {color:#FAF4C0; background-color:transparent; text-decoration:none;}
+	a:hover {color:#EAEAEA; background-color:transparent; text-decoration:none;}
+	a:active {color:#EAEAEA; background-color:transparent; text-decoration:none;}
+ 	#center{text-align:center;}
+	#color{background:white;}
+   @media only screen and (min-width: 0px) {        /* mobile */
+    .col-m-0 {width: 0%;} .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;}    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}    .col-m-6 {width: 50%;}    .col-m-7 {width: 58.33%;}    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-12 {width: 100%;} }
+    @media only screen and (min-width: 1000px) {        /* desktop */
+    .col-1{ width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;}
+    .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;}
+    .col-9{width:75%;} .col-10{ width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}}
  
-    <title>PORTFOLIO</title>
- 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
- 
-    <!-- Custom styles for this template -->
-    <link href="myStyle.css" rel="stylesheet">
-    <link href="tomorrow-night-eighties.css" rel="stylesheet"><!-- for <pre></pre> style -->
- 
-  </head>
- 
-  <body>
-    <!-- Navbar start  -->
+</style>
+<title>HOMEPAGE</title>
+</head>
+<body class="wrap">
+<!-- Navbar start  -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">My BLOG</a>
+          <a class="navbar-brand" href="#">INTERNET PROGRAMMING</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#Posts">Info</a></li>
-            <li><a href="#about">Practice</a></li>
+            <li><a href="#">Practice</a></li>
             <li><a href="#contact">Timetable</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <!--/  Navbar end  -->
-    
- 
-    <div class="container">    
-         <!--  Carousel start  -->
-            <div id="carousel">
- 
-            Carousel (Image Slider) 들러갈 곳
- 
-            </div>
-         <!--  Contents start  -->
-            <div id="contents">
- 
-            Contents 들러갈 곳
- 
-            </div>
-         <!--  footer start  -->
-            <div id="footer">
- 
-            Footer 들러갈 곳
- 
-            </div>
-    </div><!--/ .container -->
- 
-               
-   
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-    <script src="js/jquery.min.js"></script>
-    <!-- <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script> -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/run_prettify.js"></script>    
-  </body>
+    <!--/  Navbar end  --> 
+    	<header>
+  <br/>
+<img src="mg.png"/>
+ <br/><br/>
+	</header>
+<section>
+<br/>
+<br/>
+<marquee direction=left> 20171345 INTERNET PROGRAMMING PORTFOLIO XD </marquee>
+<br/><br/><br/><br/>
+	</section>
+<footer>
+	<p>Copyright &copy;2018 Made by verbieten. All rights reserved. </p>
+  <p>
+  E-MAIL : lisaaimy@naver.com
+  </p>
+</footer>
+</body>
 </html>
